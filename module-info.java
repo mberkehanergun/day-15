@@ -26,4 +26,5 @@ module EngineersApp {
 	exports mainpackage.dao;
 	
 	opens application to javafx.graphics, javafx.fxml;
+	opens mainpackage.company to spring.core;
 }
